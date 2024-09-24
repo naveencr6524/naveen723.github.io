@@ -1,0 +1,26 @@
+
+@mixin responsive-font($small, $medium, $large) {
+    font-size: $small;
+  
+    @media (min-width: 768px) {
+      font-size: $medium;
+    }
+  
+    @media (min-width: 1200px) {
+      font-size: $large;
+    }
+  }
+  
+  
+  @mixin flexbox($justify: flex-start, $align: stretch, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+  }
+  
+  
+  @mixin border-radius($radius: 4px) {
+    border-radius: $radius;
+  }
+  
