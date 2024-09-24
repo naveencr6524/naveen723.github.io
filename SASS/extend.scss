@@ -1,0 +1,10 @@
+.warning {
+    font-size: 16px;
+    color: orange;
+}
+
+
+.network-warning h2 {
+    @extend .warning;
+}
+/*bdihbfe*/
