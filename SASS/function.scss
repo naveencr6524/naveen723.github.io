@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Function 1: With Parameter */
 @function calc-width($val) {
     @return 100% / 10 * $val;
@@ -15,3 +16,22 @@
 
 
 
+=======
+/* Function 1: With Parameter */
+@function calc-width($val) {
+    @return 100% / 10 * $val;
+}
+
+/* Function 2: With Default Parameter */
+@function calc-fontSize($val: 2) {
+    @return 12px * $val;
+}
+
+/* Function 3: Without Parameter */
+@function base-padding() {
+    @return 16px;
+}
+
+
+
+>>>>>>> 26404b3f93a81e41471fc498f7a687ef48ac315f

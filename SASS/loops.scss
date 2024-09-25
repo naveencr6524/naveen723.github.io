@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @for $i from 1 through 12 {
     .col-#{$i} {
       width: (100% / 12) * $i;
@@ -33,3 +34,40 @@ $i: 1;
   }
   $i: $i + 1;
 }
+=======
+@for $i from 1 through 12 {
+    .col-#{$i} {
+      width: (100% / 12) * $i;
+    }
+  }
+
+
+
+$colors: (
+  primary: #3498db,
+  secondary: #2ecc71,
+  danger: #e74c3c,
+  warning: #f1c40f
+);
+
+
+@each $name, $color in $colors {
+  .text-#{$name} {
+    color: $color;
+  }
+
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}
+
+
+$i: 1;
+
+@while $i <= 5 {
+  .m-#{$i} {
+    margin: $i * 10px;
+  }
+  $i: $i + 1;
+}
+>>>>>>> 26404b3f93a81e41471fc498f7a687ef48ac315f

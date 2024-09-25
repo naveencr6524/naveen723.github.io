@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @mixin responsive-font($small, $medium, $large) {
     font-size: $small;
@@ -24,3 +25,31 @@
     border-radius: $radius;
   }
   
+=======
+
+@mixin responsive-font($small, $medium, $large) {
+    font-size: $small;
+  
+    @media (min-width: 768px) {
+      font-size: $medium;
+    }
+  
+    @media (min-width: 1200px) {
+      font-size: $large;
+    }
+  }
+  
+  
+  @mixin flexbox($justify: flex-start, $align: stretch, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+  }
+  
+  
+  @mixin border-radius($radius: 4px) {
+    border-radius: $radius;
+  }
+  
+>>>>>>> 26404b3f93a81e41471fc498f7a687ef48ac315f

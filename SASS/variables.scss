@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 $white:    #ffffff !default;
 $gray-1: #f0f0f0 !default;
@@ -74,3 +75,81 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark
 ) !default;
+=======
+
+$white:    #ffffff !default;
+$gray-1: #f0f0f0 !default;
+$gray-2: #e0e0e0 !default;
+$gray-3: #d0d0d0 !default;
+$gray-4: #c0c0c0 !default;
+$gray-5: #b0b0b0 !default;
+$gray-6: #808080 !default;
+$gray-7: #606060 !default;
+$gray-8: #404040 !default;
+$gray-9: #202020 !default;
+$black:    #000000 !default;
+
+
+$grays: (
+  "1": $gray-1,
+  "2": $gray-2,
+  "3": $gray-3,
+  "4": $gray-4,
+  "5": $gray-5,
+  "6": $gray-6,
+  "7": $gray-7,
+  "8": $gray-8,
+  "9": $gray-9
+) !default;
+
+
+$sky-blue:   #87ceeb !default;
+$violet:     #8a2be2 !default;
+$magenta:    #ff00ff !default;
+$salmon:     #fa8072 !default;
+$crimson:    #dc143c !default;
+$amber:      #ffbf00 !default;
+$lime:       #32cd32 !default;
+$mint:       #3eb489 !default;
+$turquoise:  #40e0d0 !default;
+$navy-blue:  #000080 !default;
+
+
+$colors: (
+  "sky-blue":   $sky-blue,
+  "violet":     $violet,
+  "magenta":    $magenta,
+  "salmon":     $salmon,
+  "crimson":    $crimson,
+  "amber":      $amber,
+  "lime":       $lime,
+  "mint":       $mint,
+  "turquoise":  $turquoise,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800,
+  "navy-blue":  $navy-blue
+) !default;
+
+
+$primary:      $sky-blue !default;
+$secondary:    $gray-600 !default;
+$success:      $lime !default;
+$info:         $turquoise !default;
+$warning:      $amber !default;
+$danger:       $crimson !default;
+$light:        $gray-100 !default;
+$dark:         $navy-blue !default;
+
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
+>>>>>>> 26404b3f93a81e41471fc498f7a687ef48ac315f
